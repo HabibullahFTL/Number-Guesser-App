@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap');
+.bg-menu{
+    background-color: #4A0099!important;
+}
+.bg-mobile{
+    height: 540px;
+    background-image: url('img/phone.png');
+    background-repeat: no-repeat;
+    background-position-x: center;
+}
+.img-mobile{
+    width: 230px;
+    display: block;
+    margin: 70px auto;
+}
+#st_game{
+    display: block;
+}
+#end_game{
+    display: none;
+    margin-top: -20px;
+}
+#play_game{
+    margin: -30px auto;
+    display: block;
+    font-weight: bold;
+    font-size: 20px;
+    border: none;
+    border-radius: 5px;
+}
+#play_game:hover{
+    background-color: #7e1de6!important;
+}
+#play_game ~ p{
+    width: 220px;
+    text-align: justify;
+    display: block;
+    margin: 50px auto;
+    color: #4A0099;
+    font-size: 15px;
+}
+#play_again_game{
+    margin: -30px auto;
+    display: block;
+    font-weight: bold;
+    font-size: 20px;
+    border: none;
+    border-radius: 5px;
+}
+#play_again_game:hover{
+    background-color: #7e1de6!important;
+}
+#play_again_game ~ p{
+    width: 220px;
+    text-align: justify;
+    display: block;
+    margin: 50px auto;
+    color: #4A0099;
+    font-size: 15px;
+}
+#game_status{
+    width: 220px;
+    text-align: center;
+    display: block;
+    margin: 50px auto;
+    color: #4A0099;
+}
+#game_status .fas{
+    font-size: 40px;
+}
+
