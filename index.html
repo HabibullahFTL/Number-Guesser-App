@@ -23,7 +23,22 @@
                 <img src="img/num_logo.png" alt="" class="img-mobile">
                 <div id="st_game">
                     <button id="play_game" class="btn btn-primary bg-menu"><i class="fas fa-gamepad"></i> Play The Game</button>
-                    <p><b style="font-size:18px;display:block;border-bottom:1px solid #4A0099;">How to play the game?</b>You should choose a number <b>between 0 to 10.</b> When you click on the button <b>"Start The Game"</b>, an prompt input window will show to ask you a number. You will get 3 chance to guess number. Then you can see that you won or fail with score.</p>
+                    <p><b style="font-size:18px;display:block;border-bottom:1px solid #4A0099;">How to play the game?</b>You should choose a number <b>between 0 to 10.</b> When you click on the button <b>"Play The Game"</b>, an input box will show to ask you a number. You will get 3 chance to guess number. Then you can see that you won or fail with score.</p>
+                </div>
+
+                <div id="game">
+                    <div class="game_message" id="00"></div>
+                    <div class="game_label">Guess a number between 0 to 10:</div>
+                    <form action="#" id="input_form">
+                        <input type="text" id="input_number">
+                        <button id="1" class="btn btn-primary bg-menu submit_number" type="submit">Submit Number</button>
+                    </form>   
+                </div>
+
+                <div id="process_game">
+                    <div class="game_message"></div>
+                    <div class="game_label">Game Ends</div>
+                    <button class="btn btn-primary bg-menu submit_number" id="show_result">Show Result</button> 
                 </div>
 
                 <div id="end_game">

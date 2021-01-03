@@ -17,6 +17,46 @@
     display: block;
     margin-top: -20px;
 }
+#game{
+    display: none;
+    margin-top: -50px;
+}
+#process_game{
+    display: none;
+    margin-top: -50px;
+}
+.game_message{
+    width: 230px;
+    margin: auto;
+    color: #7e1de6;
+    font-size: 14px;
+    text-align: center;
+    font-family: 'Fredoka One', cursive;
+}
+.game_label{
+    width: 230px;
+    margin: auto;
+    color: #7e1de6;
+    font-size: 20px;
+    text-align: center;
+    font-family: 'Fredoka One', cursive;
+}
+#input_number{
+    width: 170px;
+    padding: 5px 10px;
+    margin: 20px auto 20px auto;
+    display: block;
+    border: 2px solid #7e1de6;
+    border-radius: 5px;
+}
+.submit_number{
+    margin: auto;
+    display: block;
+    font-weight: bold;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+}
 #end_game{
     display: none;
     margin-top: -20px;
